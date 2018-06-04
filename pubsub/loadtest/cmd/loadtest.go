@@ -23,8 +23,8 @@ import (
 
 	"math/rand"
 
-	"cloud.google.com/go/pubsub/loadtest"
-	pb "cloud.google.com/go/pubsub/loadtest/pb"
+	"github.com/dhoinowski/google-cloud-go/loadtest"
+	pb "github.com/dhoinowski/google-cloud-go/loadtest/pb"
 	"google.golang.org/grpc"
 )
 

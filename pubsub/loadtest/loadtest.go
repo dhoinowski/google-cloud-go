@@ -33,8 +33,8 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 
-	"cloud.google.com/go/pubsub"
-	pb "cloud.google.com/go/pubsub/loadtest/pb"
+	"github.com/dhoinowski/google-cloud-go"
+	pb "github.com/dhoinowski/google-cloud-go/loadtest/pb"
 )
 
 type pubServerConfig struct {

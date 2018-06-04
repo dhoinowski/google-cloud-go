@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"cloud.google.com/go/pubsub/pstest"
+	"github.com/dhoinowski/google-cloud-go/pstest"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"
 )

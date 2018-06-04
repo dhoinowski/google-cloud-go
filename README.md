@@ -268,7 +268,7 @@ Google API                       | Status       | Package
 [Logging][cloud-logging]         | stable       | [`cloud.google.com/go/logging`][cloud-logging-ref]
 [Monitoring][cloud-monitoring]   | beta         | [`cloud.google.com/go/monitoring/apiv3`][cloud-monitoring-ref]
 [OS Login][cloud-oslogin]        | alpha        | [`cloud.google.com/compute/docs/oslogin/rest`][cloud-oslogin-ref]
-[Pub/Sub][cloud-pubsub]          | stable       | [`cloud.google.com/go/pubsub`][cloud-pubsub-ref]
+[Pub/Sub][cloud-pubsub]          | stable       | [`github.com/dhoinowski/google-cloud-go`][cloud-pubsub-ref]
 [Spanner][cloud-spanner]         | stable       | [`cloud.google.com/go/spanner`][cloud-spanner-ref]
 [Speech][cloud-speech]           | stable       | [`cloud.google.com/go/speech/apiv1`][cloud-speech-ref]
 [Storage][cloud-storage]         | stable       | [`cloud.google.com/go/storage`][cloud-storage-ref]
@@ -410,11 +410,11 @@ if err != nil {
 }
 ```
 
-## Cloud Pub/Sub [![GoDoc](https://godoc.org/cloud.google.com/go/pubsub?status.svg)](https://godoc.org/cloud.google.com/go/pubsub)
+## Cloud Pub/Sub [![GoDoc](https://godoc.org/github.com/dhoinowski/google-cloud-go?status.svg)](https://godoc.org/github.com/dhoinowski/google-cloud-go)
 
 - [About Cloud Pubsub][cloud-pubsub]
 - [API documentation][cloud-pubsub-docs]
-- [Go client documentation](https://godoc.org/cloud.google.com/go/pubsub)
+- [Go client documentation](https://godoc.org/github.com/dhoinowski/google-cloud-go)
 - [Complete sample programs](https://github.com/GoogleCloudPlatform/golang-samples/tree/master/pubsub)
 
 ### Example Usage
@@ -601,7 +601,7 @@ for more information.
 [cloud-firestore-activation]: https://cloud.google.com/firestore/docs/activate
 
 [cloud-pubsub]: https://cloud.google.com/pubsub/
-[cloud-pubsub-ref]: https://godoc.org/cloud.google.com/go/pubsub
+[cloud-pubsub-ref]: https://godoc.org/github.com/dhoinowski/google-cloud-go
 [cloud-pubsub-docs]: https://cloud.google.com/pubsub/docs
 
 [cloud-storage]: https://cloud.google.com/storage/

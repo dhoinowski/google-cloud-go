@@ -30,7 +30,7 @@ import (
 	"google.golang.org/grpc"
 
 	"cloud.google.com/go/internal/testutil"
-	"cloud.google.com/go/pubsub"
+	"github.com/dhoinowski/google-cloud-go"
 	gtransport "google.golang.org/api/transport/grpc"
 	pb "google.golang.org/genproto/googleapis/pubsub/v1"
 )

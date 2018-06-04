@@ -28,7 +28,7 @@ import (
 	"cloud.google.com/go/bigquery"
 	"cloud.google.com/go/datastore"
 	"cloud.google.com/go/logging"
-	"cloud.google.com/go/pubsub"
+	"github.com/dhoinowski/google-cloud-go"
 	"cloud.google.com/go/spanner"
 	"cloud.google.com/go/storage"
 

@@ -44,7 +44,7 @@ func init() {
 	}
 }
 
-const statsPrefix = "cloud.google.com/go/pubsub/"
+const statsPrefix = "github.com/dhoinowski/google-cloud-go/"
 
 var (
 	// PullCount is a measure of the number of messages pulled.

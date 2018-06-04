@@ -15,8 +15,8 @@
 package pstest_test
 
 import (
-	"cloud.google.com/go/pubsub"
-	"cloud.google.com/go/pubsub/pstest"
+	"github.com/dhoinowski/google-cloud-go"
+	"github.com/dhoinowski/google-cloud-go/pstest"
 	"golang.org/x/net/context"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"

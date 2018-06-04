@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package pubsub // import "cloud.google.com/go/pubsub"
+package pubsub // import "github.com/dhoinowski/google-cloud-go"
 
 import (
 	"fmt"
@@ -21,7 +21,7 @@ import (
 	"time"
 
 	"cloud.google.com/go/internal/version"
-	vkit "cloud.google.com/go/pubsub/apiv1"
+	vkit "github.com/dhoinowski/google-cloud-go/apiv1"
 	"golang.org/x/net/context"
 	"google.golang.org/api/option"
 	"google.golang.org/grpc"

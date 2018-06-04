@@ -22,8 +22,8 @@
 // Provides reliable, many-to-many, asynchronous messaging between
 // applications.
 //
-// Use the client at cloud.google.com/go/pubsub in preference to this.
-package pubsub // import "cloud.google.com/go/pubsub/apiv1"
+// Use the client at github.com/dhoinowski/google-cloud-go in preference to this.
+package pubsub // import "github.com/dhoinowski/google-cloud-go/apiv1"
 
 import (
 	"golang.org/x/net/context"

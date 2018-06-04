@@ -18,8 +18,8 @@ import (
 	"sync"
 	"time"
 
-	vkit "cloud.google.com/go/pubsub/apiv1"
-	"cloud.google.com/go/pubsub/internal/distribution"
+	vkit "github.com/dhoinowski/google-cloud-go/apiv1"
+	"github.com/dhoinowski/google-cloud-go/internal/distribution"
 	"golang.org/x/net/context"
 	pb "google.golang.org/genproto/googleapis/pubsub/v1"
 )
